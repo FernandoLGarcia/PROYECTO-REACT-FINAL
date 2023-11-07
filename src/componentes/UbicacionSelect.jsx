@@ -5,9 +5,9 @@ function UbicacionSelect() {
     const { ubicaciones, form, setForm } = useContext(AppContext);
 
     const handleChange = (event) => {
-        // console.log(event.target.value);
+        
         const selectedUbi = ubicaciones.find((opcion) => opcion.id == event.target.value);
-        // console.log(selectedUbi);
+    
     
         setForm({ ...form, selectedUbi });
       };

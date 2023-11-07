@@ -5,7 +5,7 @@ function InputMetros(){
     const { form, setForm } = useContext(AppContext);
 
     const handleChange = (event) => {
-        // console.log(event.target.value);
+        
 
         let metros = parseInt(event.target.value, 10);
 
